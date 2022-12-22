@@ -217,7 +217,8 @@ body{
     white-space: nowrap;
     overflow: hidden;
     border-right: 10px solid var(--main-color);;
-    animation: moving 3s  steps(18)  both,typing .7s  infinite forwards ;  
+    animation: moving 3s  steps(18) 2s both,typing .7s  infinite forwards ;  
+    
 }
 @keyframes moving {
     from{
