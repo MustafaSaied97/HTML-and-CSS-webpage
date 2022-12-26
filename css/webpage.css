@@ -812,16 +812,14 @@ body{
                         "button button";
 
     
-    /* align-items: center; */
     justify-items: start;
     
     
     gap: 10px;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 5px 10px 15px #c1c0c05e ;
-    background:linear-gradient(351deg,#bec0c0c1,#f9fafa);
-    opacity: .8;
+    box-shadow: 0px 0px 20px #c1c0c0b0 ;
+    
 
 }
 .contact .contact-content .col-1 form input{
@@ -876,6 +874,7 @@ body{
 }
 .contact .contact-content .col-2  .social a i{
     color: var(--secondary-color);
+    font-size: 20px;
 }
 .contact .contact-content .col-2  .social a:nth-child(1) i:hover{
     color:#0A66C2;
