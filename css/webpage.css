@@ -71,14 +71,29 @@ body{
 
 /* <!-- header --> */
 .header{
-    padding: 15px;
     background: var(--header-color);
-   
+    height: 80px;
+  
 }
-.header .container{
+.header .nav{
     display: flex;
-    justify-content:space-around ;
     align-items: center;
+
+
+    /*for fixed navbar*/
+    justify-content: space-around;
+
+  /*for fixed navbar*/
+    padding: 15px;
+    background:linear-gradient(351deg,#071c31a3,#000509b6);
+    height: 64px;
+
+    width: 100%;   
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
 }
 .header  .logo{
     width: 50px;
@@ -147,10 +162,9 @@ body{
 
 
 @media(max-width:768px){
-  
-    .header .container{
-        justify-content:space-between ;
-        
+    
+    .header .nav{
+        justify-content:space-between ;   
     }
 
     .header .links .icon{ 
