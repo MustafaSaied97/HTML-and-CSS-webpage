@@ -72,7 +72,7 @@ body{
 /* <!-- header --> */
 .header{
     background: var(--header-color);
-    height: 80px;
+    height: 64px;
   
 }
 .header .nav{
@@ -569,7 +569,7 @@ body{
     width: 100%;
     z-index: 1; 
     box-shadow:  0px 0px 10px rgb(12, 12, 12);
-    background-image: linear-gradient(351deg,#002357e7,#000000);
+    background-image: linear-gradient(351deg,#002357e0,#000000);
     cursor: pointer;
 
    
