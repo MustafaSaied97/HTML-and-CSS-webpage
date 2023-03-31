@@ -1,2 +1,2 @@
 # HTML-and-CSS-webpage
-design webpage using pure HTML and CSS
+design modern webpage with landing section using pure HTML and CSS
